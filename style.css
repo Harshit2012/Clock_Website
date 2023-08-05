@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#digital-clock{
+    font-size: 170px;
+    height: 200px;
+    border: 9px solid red;
+    animation: 5s example infinite;
+    border-radius: 20px;
+}
+
+@keyframes example{
+    from{border-color: red;}
+    to{border-color: bisque;}
+}
